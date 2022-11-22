@@ -1,4 +1,4 @@
-function classNames() {
+export function classNames() {
 	let clNames = [];
 
 	Object.values(arguments).forEach((argument) => {
@@ -34,13 +34,5 @@ function classNames() {
 
 	return clNames.join(' ');
 }
-
-console.log(
-	classNames(
-		0b11111111111111111111111111111111111111111111111111111,
-		true || 'bar',
-		'baz'
-	)
-);
 
 export default classNames;
