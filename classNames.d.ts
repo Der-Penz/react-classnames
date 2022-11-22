@@ -1,6 +1,7 @@
 export type ClassValue =
 	| ClassArray
 	| ClassFunction
+	| ClassObject
 	| string
 	| number
 	| null
